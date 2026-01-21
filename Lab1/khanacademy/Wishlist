@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: Wishlist</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>I wish for...</h1>
+        <ol>
+            <li>Cat(black)</li>
+            <li>Cat(orange)</li>
+            <li>Cat(gray)</li>
+            <li>Cat(white)</li>
+        </ol>
+    </body>
+</html>

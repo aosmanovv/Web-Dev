@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: A picture-perfect trip</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>The perfect trip to somewhere</h1>
+
+        <p>I would see scenes like the sky</p>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/fields-of-grain.png" alt="sky" width="250">
+        <p>And animals like cats</p>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/cat.png" alt="catt" width="250">
+        <p>And eat food like food</p>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/dog_sleeping-puppy.png" alt="korean food" width="250">
+    </body>
+</html>
