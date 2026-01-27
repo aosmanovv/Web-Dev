@@ -1,0 +1,100 @@
+#2
+<button>HIII</button>
+
+#3
+<!DOCTYPE html>
+<!--
+When you've finished your headers, click over to solution.html in this workspace to see how I did it.
+-->
+<body>
+  <p>Add your headers below this paragraph element! Add an h1, h2, h3, and h4. You should see your new headers displayed in the preview pane.
+  </p>
+  <p>Don't forget to add some text to your headers. They won't display anything otherwise.
+  </p>
+  <h1>HELLO</h1>
+  <h2>HELLO</h2>
+  <h3>HELLO</h3>
+</body>
+</html>
+
+#6
+<!DOCTYPE html>
+<html>
+<!--
+When you've made your list, click over to the solution.html file to see how I did it.
+-->
+  <body>
+  <p>Create an unordered list! Make a list of the three web languages: HTML, CSS and JavaScript.</p>
+  <ul>
+    <li>yo</li>
+    <li>hi</li>
+    <li>hello</li>
+  </ul>
+</body>
+</html>
+
+#6
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <!-- Did you notice that the body tag - the top of the sample tree - is already here? You don't need to add another one. When you're done, you can click over to the solution.html to check your work.-->
+  <h1> Heading</h1>
+  <div><p>Some content</p><br><p>Some more content</p><br></div>
+</body>
+</html>
+
+#7
+<a href="https://www.google.com">Google</a>
+
+#8
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <p>
+    This is a big paragraph of text about Udacity. Cool. Cool. And here is an image!
+    <img src="http://udacity.github.io/fend/images/udacity.png" alt="Udacity logo">
+  </p>
+</body>
+</html>
+
+#9
+<a href="/Users/cameron/Udacity/etc/labs/fend/example/hello-world.html"> Hello, world!</a>
+<a href="http://labs.udacity.com/fend/example/hello-world.html">Hello, world!</a>
+
+#10
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+  <figure>
+    <img src="redwoods_state_park.jpg" alt="Redwoods state park">
+
+    <figcaption>Stout Memorial Grove in Jedediah Smith Redwoods State Park in 2011 by Chmee2 (Own work) GFDL or CC BY-SA 3.0, via Wikimedia Commons - <a href="https://commons.wikimedia.org/wiki/File%3AStout_Memorial_Grove_in_Jedediah_Smith_Redwoods_State_Park_in_2011_(22).JPG">Source</a>
+    </figcaption>
+  </figure>
+</body>
+</html>
+
+#11
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Dev Blog Post</title>
+</head>
+<body>
+  <!-- This is adapted from: http://blog.udacity.com/2016/01/hottest-jobs-in-2016-2-web-developer.html -->
+  <!-- Format the text below! -->
+  <h1>Hottest Jobs in 2016 #2: Web Developer</h1>
+
+  <p>By <strong><em>Christopher Watkins</em></strong>
+  </p>
+
+  <p>January 19, 2016</p>
+
+  <img src="http://i1.wp.com/blog.udacity.com/wp-content/uploads/2016/01/Slack-for-iOS-Upload.jpg?zoom=2&amp;resize=320%2C168" alt="Hottest Jobs in 2016 #2: Web Developer">
+
+  <p>There is a simple reason why Web Developer is such a hot job right now. Put simply, what Web Developers do is create how we experience … the web. If you proceed from the notion that every person who engages with the web would prefer a great experience, then you can say that everyone who engages with the web would prefer that a Web Developer have done a great job. Companies of course know this, so they hire Web Developers to ensure their sites provide great experiences. So, lots of websites and lots of users means lots of demand. LOTS of demand. 🔥
+  </p>
+</body>
+</html>
