@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(243, 243, 246);
+}
+h1{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color:rgb(27, 104, 248);
+    font-size: 400%;
+    margin-bottom: 0px;
+}
+#Promo{
+    margin-top: 1vh;
+    font-family:  'Arial', sans-serif;
+    font-size: 180%;
+    width: 33vw;
+}
+#main{
+    position:relative;
+    display: inline-block;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 8vh;
+    margin-left: 14%;
+    margin-right: 18%;
+}
+#logo{
+    position:relative;
+    float:left;
+    width:35%;
+    margin-top:10%;
+    left:5%;
+}
+#loginForm{
+    position:relative;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    width:42%;
+    height: 50vh;
+    float:right;
+    left:15%;
+}
+fieldset{
+    border: none;
+}
+
+#formsep{
+    margin: 0px 10px 0 10px;
+    color: #de4242;
+}
+
+form{
+    position: relative;
+    display:block;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px #eeeeee;
+
+}
+
+.logbutton{
+    font-size:15px;
+    padding:10px;
+    display: block;
+    height:auto;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 10px;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+#forgotPass{
+    font-size: 14px;
+    background-color:white;
+    color: #0275fa;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+.login{
+    overflow-x:hidden;
+    width: 90%;
+    height: 4vh;
+    border:solid #afadad 2px;
+}
+
+#form_footer{
+    padding:10px;
+    text-align: center;
+    font-size:90%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#NewAccount{
+    margin-top: 5%;
+    width:60%;
+    height: 7vh;
+    margin-left:20%;
+    background-color: rgb(16, 182, 2);
+    color:white;
+    border:none;
+    font-weight: bold;
+}
+
+#Enter{
+    color:white;
+    padding:12px;
+    border:none;
+    background-color: #0057fc;
+}
+
+#Enter:hover,#Enter:active{
+    background-color: #020aa1;
+    color: #9696fd;
+}
+
+#forgotPass:hover{
+    color:blue;
+}
+
+#NewAccount:hover,#NewAccount:active{
+    background-color: #0c9102;
+    color: #b8fcb4;
+}
