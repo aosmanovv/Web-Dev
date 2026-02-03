@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Lab2" content="Instagram">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="instagram.css">
+</head>
+<body>
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <image href="instagram.webp" height="75" width="75" class="insta"/>
+    </svg>
+    <div id="container">
+        <div class="left-side">
+            <h2>
+                Посмотрите, какими <br> моментами из жизни <br> поделились ваши <span>близкие друзья.</span> 
+            </h2>
+            <div class="image-stack">
+                <img src="photo.webp" class="photo" alt="Stories">
+            </div>
+        </div>
+
+        <div class="right-side">
+
+            <div class="login-box">
+                <p class="login-title">Войти в Instagram</p>
+                <form>
+                    <input type="text" placeholder="Имя пользователя, номер телефона или электронная почта">
+                    <input type="password" placeholder="Пароль">
+                    <button type="submit" class="button-login" disabled>Войти</button>
+                </form>
+                
+                <a href="#" class="forgot-password">Забыли пароль?</a>
+
+                <div class="extra-actions">
+                    <button class="button-facebook"> <img src="images.jpg" style="width: 10px;"> Войти через Facebook</button>
+                    <button class="button-signup">Создать новый аккаунт</button>
+                    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" style="position: relative;align-self: center">
+                        <image href="meta.png" height="75" width="75" class="met"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
