@@ -38,6 +38,7 @@ function addTask() {
 
 
 addBtn.addEventListener('click', addTask);
+
 inputField.addEventListener('keypress', (pressed) => {
   if (pressed.key === 'Enter') addTask();
 });
