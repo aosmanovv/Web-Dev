@@ -1,0 +1,55 @@
+.container {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.loading {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  padding: 40px;
+}
+
+.albums-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.album-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5d7178;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.album-card:hover {
+  background-color: #a5b5a8;
+}
+
+.album-content {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.album-content h3 {
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+}
+
+.delete-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: background-color 0.2s;
+}
