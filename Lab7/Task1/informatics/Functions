@@ -1,0 +1,38 @@
+def min4(a, b, c, d):
+    m = a
+    if b < m:
+        m = b
+    if c < m:
+        m = c
+    if d < m:
+        m = d
+    return m
+
+nums = list(map(int, input().split()))
+print(min4(nums[0], nums[1], nums[2], nums[3]))
+
+
+
+def power(a, n):
+    result = 1.0
+    for _ in range(n):
+        result *= a
+    return result
+
+line = input().split()
+a = float(line[0])
+n = int(line[1])
+
+print(power(a, n))
+
+
+
+
+def xor(x, y):
+    return (x + y) == 1
+
+line = input().split()
+x = int(line[0])
+y = int(line[1])
+
+print(1 if xor(x, y) else 0)

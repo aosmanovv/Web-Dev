@@ -5,7 +5,7 @@
 }
 
 .back-btn {
-  border: #5f665e solid 1px;
+  border: #d9d3d3 solid 1px;
   background-color: #d9d3d3;
 
   color: #3d3d3d;
@@ -30,7 +30,7 @@ h2 {
 
 .loading {
   font-size: 1.2rem;
-  color: #666;
+  color: #3d3d3d;
   text-align: center;
   padding: 40px;
 }
@@ -42,7 +42,7 @@ h2 {
 }
 
 .photo-card {
-  background-color: #5f665e;
+  background-color: #d9d3d3;
   border-radius: 12px;
   overflow: hidden;
   display: flex;

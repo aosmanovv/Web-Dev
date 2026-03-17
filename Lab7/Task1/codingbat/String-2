@@ -1,0 +1,19 @@
+def count_hi(s):
+    return s.count("hi")
+
+def cat_dog(s):
+    return s.count("cat") == s.count("dog")
+
+def count_code(s):
+    count = 0
+    for i in range(len(s) - 3):
+        if s[i] == 'c' and s[i+1] == 'o' and s[i+3] == 'e':
+            count += 1
+    return count
+
+def end_other(a, b):
+    a_low = a.lower()
+    b_low = b.lower()
+    return a_low.endswith(b_low) or b_low.endswith(a_low)
+
+

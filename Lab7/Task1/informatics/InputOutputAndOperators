@@ -1,0 +1,48 @@
+from math import sqrt
+
+a = float(input())
+b = float(input())
+c = sqrt(a*a + b*b)
+print(c)
+
+
+
+n = int(input())
+
+next_num = n + 1
+prev_num = n - 1
+
+print(f"The next number for the number {n} is {next_num}.")
+print(f"The previous number for the number {n} is {prev_num}.")
+
+
+
+N = int(input())
+K = int(input())
+
+apples_per_student = K // N
+
+print(apples_per_student)
+
+
+
+N = int(input())
+K = int(input())
+
+remainder = K % N
+
+print(remainder)
+
+
+
+v = int(input())
+t = int(input())
+
+length = 109
+
+position = (v * t) % length
+
+if position < 0:
+    position += length
+
+print(position)
