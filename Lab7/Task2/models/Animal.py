@@ -12,3 +12,4 @@ class Animal:
 
     def __str__(self):
         return f"{self.__class__.__name__}: {self.name}, {self.age} years, {self.color}"
+1
